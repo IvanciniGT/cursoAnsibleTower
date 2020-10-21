@@ -1,0 +1,20 @@
+- hosts: all
+  gather_facts: yes
+  tasks:
+    - name: Hola mundo!!!
+      debug: 
+        msg: Hola mundo 
+        
+    - name: Crear usuario
+      user: 
+        name: ivan
+        state: present
+        
+    - name: Caracteristicas de la máquina
+      debug: 
+        msg: "{{ ansible_facts.distribution }}"
+    
+    - name: Adios mundo!!!
+      debug: 
+        msg: Adios mundo 
+        
