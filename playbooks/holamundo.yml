@@ -10,11 +10,15 @@
       tags:
         - saludo
         - bienvenida
+      when: 
+        - ansible_facts.distribution == 'CentOS'
+      notify: handler1
         
     - name: Crear usuario
       user: 
         name: ivan
         state: present
+      notify: usuariocreado
         
     - name: Caracteristicas de la máquina
       debug: 
@@ -26,3 +30,14 @@
       tags:
         - saludo
         - despedida
+
+  handlers:
+    - name: handler1
+      debug: 
+        msg: Soy el handler 1 
+      listen: usuariocreado
+    - name: handler2
+      debug: 
+        msg: Soy el handler 2
+      listen: usuariocreado
+
