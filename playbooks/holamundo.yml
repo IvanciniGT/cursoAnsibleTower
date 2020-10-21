@@ -19,6 +19,7 @@
         name: ivan
         state: present
       notify: usuariocreado
+      changed_when: False
         
     - name: Caracteristicas de la máquina
       debug: 
