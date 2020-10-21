@@ -27,7 +27,7 @@
     
     - name: Adios mundo!!!
       debug: 
-        msg: Adios mundo 
+        msg: "Adios {{ persona }}"
       tags:
         - saludo
         - despedida
