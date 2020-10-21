@@ -1,9 +1,15 @@
+
+# Default
+
 - hosts: all
   gather_facts: yes
   tasks:
     - name: Hola mundo!!!
       debug: 
         msg: Hola mundo 
+      tags:
+        - saludo
+        - bienvenida
         
     - name: Crear usuario
       user: 
@@ -17,4 +23,6 @@
     - name: Adios mundo!!!
       debug: 
         msg: Adios mundo 
-        
+      tags:
+        - saludo
+        - despedida
