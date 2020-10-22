@@ -2,4 +2,4 @@
   
   tasks:
     - debug:
-      msg: Soy la tarea de Instalación de Librerias en Redhat
+       msg: Soy la tarea de Instalación de Librerias en Redhat

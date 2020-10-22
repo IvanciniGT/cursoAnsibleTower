@@ -2,4 +2,4 @@
   
   tasks:
     - debug:
-      msg: Soy la tarea de Ampliación del FS Windows
+       msg: Soy la tarea de Ampliación del FS Windows

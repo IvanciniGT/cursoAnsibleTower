@@ -2,4 +2,4 @@
   
   tasks:
     - debug:
-      msg: Soy la tarea de Actualización de JBOSS
+        msg: Soy la tarea de Actualización de JBOSS

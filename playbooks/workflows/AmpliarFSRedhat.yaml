@@ -2,5 +2,5 @@
   
   tasks:
     - debug:
-      msg: Soy la tarea de ampliación de FS Redhat
+       msg: Soy la tarea de ampliación de FS Redhat
       

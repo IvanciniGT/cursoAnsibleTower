@@ -2,5 +2,5 @@
   
   tasks:
     - debug:
-      msg: Soy la tarea de Actualización de Librerias Redhat
+       msg: Soy la tarea de Actualización de Librerias Redhat
       

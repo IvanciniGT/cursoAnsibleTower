@@ -2,4 +2,4 @@
   
   tasks:
     - debug:
-      msg: Soy la tarea de Reinicio de JBOSS
+        msg: Soy la tarea de Reinicio de JBOSS

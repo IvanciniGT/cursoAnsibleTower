@@ -2,4 +2,4 @@
   
   tasks:
     - debug:
-      msg: Soy la tarea de Reinicio de una aplicaci
+       msg: Soy la tarea de Reinicio de una aplicaci
