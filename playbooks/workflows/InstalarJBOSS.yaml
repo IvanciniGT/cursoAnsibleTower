@@ -1,5 +1,7 @@
 - hosts: all
-  
+  vars: 
+    directorio: 'este es el directorio'
+    puerto: 8080
   tasks:
     - debug:
-       msg: Soy la tarea de Instalación de JBOSS
+       msg: Soy la tarea de Instalación de JBOSS {{ version }} {{ directorio }} {{ puerto }}
