@@ -4,4 +4,4 @@
     puerto: 8080
   tasks:
     - debug:
-       msg: Soy la tarea de Instalación de JBOSS {{ version }} {{ directorio }} {{ puerto }}
+       msg: "Soy la tarea de Instalación de JBOSS {{ version }} {{ directorio }} {{ puerto }}"
